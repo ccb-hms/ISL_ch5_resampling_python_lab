@@ -74,4 +74,6 @@
   "postAttachCommand": {
     "rstudio-start": "rserver"
   }
+    ,
+    "postCreateCommand": "pip install -r /workspaces/ISL_ch5_resampling_python_lab/.devcontainer/requirements.txt"
 }
